@@ -94,7 +94,7 @@ router.post('/signup2', function(req, res, next){
             }
             else
             {
-//                console.log(json(docs));
+
                 res.redirect('/user/signupFinal');
             }
         });
